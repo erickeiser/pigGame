@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.wrapper ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 80px;
+  line-height: 3.5;
+  font-size: 20px;
+}
+
+hr {
+  max-width: 100%;
+  text-align: center;
+  background-color: rgb(220,220,220);
+  opacity: .09;
+}
+
+body {
+  background-color: rgba(30,66,145, .7);
+  color: rgba(220,220,220);
+  overflow: hidden;
+}
+
+.button a {
+  border-radius: 6px;
+  text-decoration: none;
+  background: rgb(220,220,220);
+  color: rgb(30,66,145);
+  font-weight: bold;
+  font-size: 20px;
+ 
+}
+
+.button {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+button {
+  border: 3px solid rgba(220,220,220);
+  border-radius: 25px;
+}
+
+
+  
+
+
+
+ 

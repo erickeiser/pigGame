@@ -15,19 +15,26 @@
 }
 
 body {
-  background-image: linear-gradient(
-      rgba(62, 20, 20, 0.4),
-      rgba(62, 20, 20, 0.4)
-    ),
-    url(img/back.jpg);
-  background-size: cover;
-  background-position: center;
-  font-family: Lato;
-  font-weight: 300;
-  position: relative;
-  height: 100vh;
-  color: #555;
+ background-color: rgba(30,66,145,.4);
+ color: rgb(220,220,220)
+     
+    }
+.btn {
+  padding-top: 90px;
 }
+
+button a {
+  text-decoration: none;
+  background: rgba(58, 58, 236);
+  color: rgb(220,220,220);
+  border: 3px solid #000;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 10px;
+
+}
+    
 
 .wrapper {
   width: 1000px;
@@ -67,7 +74,7 @@ body {
   text-align: center;
   font-size: 80px;
   font-weight: 100;
-  color: #eb4d4d;
+  color: rgb(54, 143, 12);
   margin-bottom: 130px;
 }
 
@@ -82,13 +89,13 @@ body {
   content: "\2022";
   font-size: 47px;
   position: absolute;
-  color: #eb4d4d;
+  color: rgba(58, 58, 236);
   top: -7px;
   right: 10px;
 }
 
 .player-current-box {
-  background-color: #eb4d4d;
+  background-color: rgba(58, 58, 236);
   color: #fff;
   width: 40%;
   margin: 0 auto;
@@ -135,7 +142,7 @@ button:focus {
 }
 
 i {
-  color: #eb4d4d;
+  color: rgba(58, 58, 236,.8);
   display: inline-block;
   margin-right: 15px;
   font-size: 32px;
@@ -169,5 +176,5 @@ i {
 }
 .winner .player-name {
   font-weight: 300;
-  color: #eb4d4d;
+  color: #0ee919;
 }
